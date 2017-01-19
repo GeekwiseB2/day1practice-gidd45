@@ -2,3 +2,15 @@ li {
   list-style-type: none;
   color: #e40007;
 }
+
+@media screen and (min-width: 300px) {
+  .col-md-3 {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .col-md-3 {
+    background-color: purple;
+  }
+}
