@@ -30,3 +30,29 @@
   background-color: #000;
   height: 70px;
 }
+div {
+  border: 2px solid black;
+}
+.left {
+  background-color: #9063f1;
+  height: 200px;
+}
+.right{
+  background-color: #9063f1;
+  height: 200px;
+}
+.col-md-1 {
+  height: 150px;
+}
+/*media query starts*/
+
+@media/*<---rule*/ screen/*<---media*/ and (min-width: 768px) {
+  .right {
+    background-color: #ff7f01;
+  }
+}
+@media screen and (min-width: 575px) {
+  .left {
+    background-color: #ff00ff;
+  }
+}
